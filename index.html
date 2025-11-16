@@ -39,6 +39,24 @@ deposito 100, saque 50, deposito 200</textarea
         <p>Formato: <code>deposito 100, saque 50, deposito 200</code></p>
         <p>Format: <code>deposit 100, withdrawal 50, deposit 200</code></p>
       </details>
+
+      <section class="withdraw">
+        <h2>Saque (ATM)</h2>
+        <label for="withdrawInput">Valor para saque (somente dígitos):</label>
+        <input
+          id="withdrawInput"
+          type="text"
+          placeholder="Ex: 50"
+        />
+        <div class="controls">
+          <button id="withdrawBtn">Calcular saque</button>
+          <button id="withdrawReset">Limpar</button>
+        </div>
+        <div class="result">
+          <label>Resultado:</label>
+          <output id="withdrawOutput">-</output>
+        </div>
+      </section>
     </main>
 
     <script src="app.js"></script>
