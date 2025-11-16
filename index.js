@@ -1,4 +1,3 @@
-
 if (typeof gets === "undefined" || typeof print === "undefined") {
   const fs = require("fs");
   const data = fs.readFileSync(0, "utf8");
@@ -60,9 +59,8 @@ function calcularSaque(valor) {
   return `50:${notas50} 20:${notas20} 10:${notas10}`;
 }
 
- // pega primeira linha de entrada (plataforma) e imprime resultado.
+// pega primeira linha de entrada (plataforma) e imprime resultado.
 const input = typeof gets === "function" ? gets() : undefined;
 if (input !== undefined && input !== "") {
   print(calcularSaque(input));
 }
-
