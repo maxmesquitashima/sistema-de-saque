@@ -32,11 +32,28 @@ deposit <amount>, withdrawal <amount>, deposit <amount>
 
 ## How to Test
 
-Execute the test script:
+Execute the Node test script:
 
 ```bash
 node test.js
 ```
+
+## Run in the browser (UI)
+
+Open `index.html` in your browser or run a simple local server and visit `http://localhost:3000`:
+
+```bash
+# using Python 3
+python3 -m http.server 3000
+```
+
+Files added for browser UI:
+
+- `index.html` — simple web page to enter operations and show the result
+- `style.css` — UI styling
+- `app.js` — contains `calcularSaldo` wiring for the page (accepts PT/EN keywords)
+
+Keyboard: press `Ctrl+Enter` (or Cmd+Enter on macOS) inside the input to calculate.
 
 ## Implemented Logic
 
@@ -87,11 +104,28 @@ deposito <valor>, saque <valor>, deposito <valor>
 
 ## Como Testar
 
-Execute o script de testes:
+Execute o script de testes Node:
 
 ```bash
 node test.js
 ```
+
+## Executar no navegador (UI)
+
+Abra `index.html` no navegador ou execute um servidor local simples e acesse `http://localhost:3000`:
+
+```bash
+# usando Python 3
+python3 -m http.server 3000
+```
+
+Arquivos adicionados para a interface:
+
+- `index.html` — página para inserir operações e visualizar o resultado
+- `style.css` — estilos da interface
+- `app.js` — contém a função `calcularSaldo` adaptada e integrada à página (aceita palavras PT/EN)
+
+Teclado: pressione `Ctrl+Enter` (ou Cmd+Enter no macOS) dentro do campo para calcular.
 
 ## Lógica Implementada
 

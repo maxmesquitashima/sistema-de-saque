@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+    />
+    <title>Calculadora de Saldo Bancário</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Calculadora de Saldo Bancário</h1>
+
+      <label for="inputOps">Operações (separadas por vírgula):</label>
+      <textarea
+        id="inputOps"
+        rows="4"
+      >
+deposito 100, saque 50, deposito 200</textarea
+      >
+
+      <div class="controls">
+        <button id="calcBtn">Calcular</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+
+      <div class="result">
+        <label>Saldo:</label>
+        <output id="outputSaldo">0</output>
+      </div>
+
+      <details>
+        <summary>Instruções (EN/PT)</summary>
+        <p>Formato: <code>deposito 100, saque 50, deposito 200</code></p>
+        <p>Format: <code>deposit 100, withdrawal 50, deposit 200</code></p>
+      </details>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
