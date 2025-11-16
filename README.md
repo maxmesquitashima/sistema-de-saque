@@ -3,12 +3,12 @@
 
 ## Description
 
-This project implements a function to calculate bank balance based on a sequence of deposit 
+This project implements a function to calculate bank balance based on a sequence of deposit  
 and withdrawal operations.
 
 ## How it works
 
-The `calcularSaldo()` function receives a string containing banking operations separated by 
+The `calcularSaldo()` function receives a string containing banking operations separated by  
 commas, processes each operation and returns the final balance.
 
 ### Input Format
@@ -58,12 +58,12 @@ node test.js
 
 ## Descrição
 
-Este projeto implementa uma função para calcular o saldo bancário baseado em uma sequência de 
+Este projeto implementa uma função para calcular o saldo bancário baseado em uma sequência de  
 operações de depósito e saque.
 
 ## Funcionamento
 
-A função `calcularSaldo()` recebe uma string contendo operações bancárias separadas por 
+A função `calcularSaldo()` recebe uma string contendo operações bancárias separadas por  
 vírgula, processa cada operação e retorna o saldo final.
 
 ### Formato de Entrada
