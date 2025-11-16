@@ -58,8 +58,8 @@ node test.js
 
 ## Descrição
 
-Este projeto implementa uma função para calcular o saldo bancário baseado em uma sequência de  
-operações de depósito e saque.
+Este projeto implementa uma função para calcular o saldo bancário baseado em uma sequência  
+de operações de depósito e saque.
 
 ## Funcionamento
 
