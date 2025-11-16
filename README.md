@@ -40,7 +40,8 @@ node test.js
 
 ## Run in the browser (UI)
 
-Open `index.html` in your browser or run a simple local server and visit `http://localhost:3000`:
+Open `index.html` in your browser or run a simple local server and visit
+ `http://localhost:3000`:
 
 ```bash
 # using Python 3
@@ -112,7 +113,8 @@ node test.js
 
 ## Executar no navegador (UI)
 
-Abra `index.html` no navegador ou execute um servidor local simples e acesse `http://localhost:3000`:
+Abra `index.html` no navegador ou execute um servidor local simples e acesse
+`http://localhost:3000`:
 
 ```bash
 # usando Python 3
@@ -123,7 +125,8 @@ Arquivos adicionados para a interface:
 
 - `index.html` — página para inserir operações e visualizar o resultado
 - `style.css` — estilos da interface
-- `app.js` — contém a função `calcularSaldo` adaptada e integrada à página (aceita palavras PT/EN)
+- `app.js` — contém a função `calcularSaldo` adaptada e integrada à página
+ (aceita palavras PT/EN)
 
 Teclado: pressione `Ctrl+Enter` (ou Cmd+Enter no macOS) dentro do campo para calcular.
 
